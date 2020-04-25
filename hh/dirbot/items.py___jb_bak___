@@ -1,0 +1,11 @@
+from scrapy.item import Item, Field
+
+class Hh(Item):
+    url=Field()
+    vacancy = Field()
+    employer= Field()    
+    salary= Field()
+    description= Field()
+    city=Field()
+    prof_obl= Field()
+class reddit(Item):
